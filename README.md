@@ -31,3 +31,8 @@ Create a function to return `true` or `false` if a number passed in a prime numb
 
 ##primes(max)
 Using your `isPrime()` function, create a function `primes` that will return an array of all prime numbers up to a certain amount.
+
+
+
+The order I would recommend: sillySum(arr), numSquare(arr) with Math.sqrt(x), numSquare(arr) without Math.sqrt(x), letterCount(word), isPrime(num), primes(max), merge(arr1, arr2)
+merge and letterCount may be easier than primes and/or harder than isPrime, but those two kinda go together, so
